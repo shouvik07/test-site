@@ -138,8 +138,6 @@ body {
   <div class="side">
     <h2>About Me</h2>
     <video id="video" width="320" height="240" controls>
-    <source src="sample_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
     </video>
     <h5>Photo of me:</h5>
     <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
@@ -173,7 +171,7 @@ body {
 <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@alpha"></script> -->
 <script>
   var video = document.getElementById('video');
-  var videoSrc = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
+  var videoSrc = 'https://github.com/team-addabuzz/test-site/blob/main/sample_vid.m3u8';
   if (Hls.isSupported()) {
     var hls = new Hls();
     hls.loadSource(videoSrc);
