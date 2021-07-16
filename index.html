@@ -138,6 +138,7 @@ body {
   <div class="side">
     <h2>About Me</h2>
     <video id="video" width="320" height="240" controls>
+      
     </video>
     <h5>Photo of me:</h5>
     <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
@@ -171,7 +172,7 @@ body {
 <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@alpha"></script> -->
 <script>
   var video = document.getElementById('video');
-  var videoSrc = 'https://github.com/team-addabuzz/test-site/blob/main/sample_vid.m3u8';
+  var videoSrc = './sample_vid.m3u8';
   if (Hls.isSupported()) {
     var hls = new Hls();
     hls.loadSource(videoSrc);
